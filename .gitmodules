@@ -1,0 +1,6 @@
+[submodule "ZespolLib"]
+	path = ZespolLib
+	url = ../ZespolLib.git
+[submodule "ZespolTesting"]
+	path = ZespolTesting
+	url = ../ZespolTesting.git
