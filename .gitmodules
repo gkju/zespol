@@ -1,0 +1,12 @@
+[submodule "ZespolLib"]
+	path = ZespolLib
+	url = ../ZespolLib.git
+[submodule "ZespolTesting"]
+	path = ZespolTesting
+	url = ../ZespolTesting.git
+[submodule "ZespolWpfGui"]
+	path = ZespolWpfGui
+	url = ../ZespolWpfGui.git
+[submodule "ZespolServer"]
+	path = ZespolServer
+	url = ../ZespolServer.git
