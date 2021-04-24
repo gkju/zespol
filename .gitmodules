@@ -4,6 +4,9 @@
 [submodule "ZespolTesting"]
 	path = ZespolTesting
 	url = ../ZespolTesting.git
-[submodule "zespol-gui"]
-	path = zespol-gui
-	url = https://github.com/gkju/zespol-gui
+[submodule "ZespolWpfGui"]
+	path = ZespolWpfGui
+	url = ../ZespolWpfGui.git
+[submodule "ZespolServer"]
+	path = ZespolServer
+	url = ../ZespolServer.git
