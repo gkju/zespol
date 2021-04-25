@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ZespolLib/" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ZespolServer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ZespolTesting/" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ZespolWpfGui" vcs="Git" />
   </component>
 </project>
