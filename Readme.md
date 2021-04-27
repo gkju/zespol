@@ -32,7 +32,8 @@ docker-compose -f ./docker-compose-linux.yml up
 ### Wymagania
     - windows x64
 
-Wystarczy otworzyć folder i uruchomić ZespolKlient.exe
+Wystarczy otworzyć folder /Dist i uruchomić ZespolWpfGui.exe \
+Do publikacji aplikacji używam `dotnet publish -o ../Dist` w folderze z wpf csproj, wszystkie ustawienia są również zawarte w scproj
 
 ## Samodzielna kompilacja/uruchamianie
 
