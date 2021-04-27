@@ -2,7 +2,7 @@
 
 services:
     web:
-        container_name: 'zespol-server-asp'
+        container_name: 'zespol-server-asp-windows'
         image: 'aspnetcoreapp'
         build:
             context: .
@@ -15,7 +15,7 @@ services:
         networks:
             - main-net
     postgres:
-        container_name: 'postgres'
+        container_name: 'zespol-postgres-windows'
         image: 'postgres'
         environment:
             POSTGRES_USER: postgres
