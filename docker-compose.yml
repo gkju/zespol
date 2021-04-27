@@ -13,15 +13,16 @@ services:
         depends_on:
             - "postgres"
         networks:
-          - main-network
+            - main-net
     postgres:
-        container_name: 'zespol-db'
+        container_name: 'postgres'
         image: 'postgres'
         environment:
+            POSTGRES_USER: postgres
             POSTGRES_PASSWORD: password
         networks:
-            - main-network
- 
+            - main-net
+
 networks:
-  main-network:
-    driver: bridge
+    main-net:
+        driver: bridge
